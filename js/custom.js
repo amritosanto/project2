@@ -1,0 +1,38 @@
+$(function(){
+    $(".one").click(function(){
+        $(".it1").toggleClass("dark");
+    });
+    $(".two").click(function(){
+        $(".it2").toggleClass("dark");
+    });
+    $(".three").click(function(){
+        $(".it3").toggleClass("dark");
+    });
+    $(".four").click(function(){
+        $(".it4").toggleClass("dark");
+    });
+});
+$(function(){
+    $(".one1").click(function(){
+        $(".p1").toggle(500);
+    });
+    $(".one2").click(function(){
+        $(".p2").toggle(500);
+    });
+    $(".one3").click(function(){
+        $(".p3").toggle(500);
+    });
+    $(".one4").click(function(){
+        $(".p4").toggle(500);
+    });
+});
+$(function(){
+    $(".btn2").click(function(){
+        $(".form_change").toggle(1000);
+    });
+});
+$(function(){
+    $(".btn3").click(function(){
+        $(".header_change").fadeToggle(1000);
+    });
+});
